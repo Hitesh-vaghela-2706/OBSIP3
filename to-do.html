@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> To-Do List </title>
+    <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+    <div class="container">
+        <div id="mydiv" class="header">
+            <h1> My To-Do List </h1>
+            <div class="horizontal">
+                <hr>
+            </div>
+            <input type="text" id="myInput" height="30px" placeholder="Enter Your Task Here..">
+            <span onclick="newElement()" class="add-button"> ADD </span><br><br>
+        </div>
+    
+        <div class="ul-background">
+            <ul id="myUL">
+            </ul>
+        </div>
+    </div>
+    <script src="to-do.js"></script>
+</body>
+</html>
